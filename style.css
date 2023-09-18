@@ -1,0 +1,212 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+
+    font-size: 62,54;
+
+    font-family: 'Mulish', sans-serif;
+}
+
+html, body, input
+{
+    font-family: 'Mulish', sans-serif;
+}
+
+body
+{
+    background-color: #387E96;
+    color: #121214;  
+    
+    font-size: 1.6rem;
+}
+
+.container
+{
+    padding: 1.6rem 3.2rem;
+    width: min(112rem, 100%);
+    margin: 0 auto;
+}
+
+header, nav
+{
+    display: flex;
+    align-items: center;
+    gap: 25.5px;
+
+    font-weight: 600;
+}
+
+.logo
+{
+    background-color: white;
+    width: 4.2rem;
+    height: 4.2rem;
+
+    border-radius: 50%;
+}
+
+header form
+{
+    flex: 1;
+    border-radius: .4rem;
+}
+
+.box p
+{
+    padding-left: 2.2rem;
+    padding-top: 3.1rem;
+}
+
+.secondtitle h2
+{
+    padding-top: 2.5rem;
+}
+
+.input-wrapper label
+{
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.input-wrapper input
+{
+    width: 100%;
+    padding: 1.6rem;
+
+    background-color: #528ca0;
+    
+    border: 0;
+    border-radius: .6rem;
+    border-color: none;
+
+    font-size: 1.6rem;
+    font-weight: 600;
+
+}
+
+.input-wrapper input::placeholder
+{
+    opacity: 0.56;
+    color: #FFFFFF;
+}
+
+.avatar
+{
+    width: 4.2rem;
+    height: 4.2rem;
+
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+main
+{
+    background-color: #FFFFFF;
+}
+
+img
+{
+    width: 100%;
+}
+
+main h1
+{
+    padding-top: 3.1rem;
+    padding-left: 2.2rem;
+
+    color: #202024;
+
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+button
+{
+
+    padding-top: 1rem;
+    padding-left: 2.2rem;
+    border: none;
+
+}
+
+#paragrafo
+{
+    padding-top: 3.1rem;
+    padding-left: 2.2rem;
+}
+
+.container h1
+{
+    padding-top: 3.4rem;
+    padding-left: 2.2rem;
+    color: red;
+
+    font-weight: bold;
+}
+
+.secondtitle h2
+{
+    padding-left: 2.2rem;
+    margin-top: 1rem;
+}
+
+.item
+{
+    display: flex;
+    grid-column: auto;
+
+    align-items: center;
+
+    padding-top: 1.8rem;
+
+}
+
+.item img
+{
+    padding-top: 1.6rem;
+    padding-left: 2.2rem;
+
+    border-radius: .8rem;
+
+    width: 15.1rem;
+    height: 8.4rem;
+}
+
+.details p
+{
+    padding-left: 2.2rem;
+
+    font-size: 1.4rem;
+}
+
+.details p span
+{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+footer
+{
+   
+    position: relative;
+    height: 0;
+}
+
+footer p
+{
+    text-align: center;
+    
+    padding: 0 1.6rem 1.6rem;
+    font-weight: 400;
+}
+
+
+
